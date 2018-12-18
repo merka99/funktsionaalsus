@@ -24,7 +24,6 @@
 
 
 
-
 const guessField = document.querySelector('.guessField');
 const guessSubmit = document.querySelector('.guessSubmit');
 const guesses = document.querySelector('.guesses');
@@ -62,8 +61,17 @@ const checkGuess = () => {
             else if (userGuess > randomNumber) {
             lowOrHigh.textContent = lowOrHighText + 'väiksem ';
         }
+        
+        
                
     }
+    
+     if (guessCount > 9) {
+            document.getElementById("guessField").disabled = true;
+            document.getElementsByClassName('.guesses').disabled = true;
+        
+        }
+    
     guessCount++;
     guessField.value = '';
     guessField.focus();
