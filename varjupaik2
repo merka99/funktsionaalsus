@@ -1,0 +1,59 @@
+<!doctype html>
+<HTML>
+<head>
+    <title> Loomade varjupaik </title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="varjupaik.css" type="text/css">
+</head>
+    <body>
+        <div id="wrap">
+            <header class="main-header">
+                <div class="header-container">
+                <div class="showcase">
+                    <h1>Loomade varjupaik</h1>    
+                </div>
+                </div>
+            </header>
+            <div id="showcase">
+                <div id="container">
+                    <nav class="main-nav">
+                        <ul>
+                            <li> <a class="active" href="#home">Avaleht </a></li>
+                            <li><a href="#meist">Meist</a></li>
+                            <li><a href="#kadunud">Teadmata kadunud</a></li>
+                            <li><a href="#profiil">Loomade profiilid</a></li>
+                            <li><a href="#toeta">Toeta meid</a></li>
+                        </ul>
+                    </nav>
+                    <div class="pilt">
+                        <div class="pilt1">
+                           <img src="loom/vicious_dog_0.png" width="300px" height="250px" class="image">
+                        </div>
+                        </div>
+                        <img src="loom/cat.jpg" width="300px" height="250px" class="rida">
+                        <img src="loom/15552318_2.jpg" width="300px" height="250px" class="rida">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h2>Meie varjupaigast</h2>
+                <p id="info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div style="clear"></div>
+            </div>
+
+        </div>
+            <div class="footer">
+                <div class="vasakpool">
+                    <h2 id="punane">Oleme avatud iga päev 9-20</h2>
+                    <br>
+                    <p> Meie sotsiaalmeedialingid </p>
+                </div>
+                <div class="parempool"> 
+                    <h4> Asukoht: Kopli 1, Tartu</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.605408175288!2d26.711919351725125!3d58.34945819614552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb3747db90ed05%3A0x387b666bb555e743!2sKopli+1%2C+50115+Tartu!5e0!3m2!1sen!2see!4v1547720840179" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+    
+    </body>
+</HTML>
